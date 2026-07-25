@@ -1,4 +1,4 @@
-# Arduino_LED_blinking
+# Arduino_Projects
 
 ## This is my first harware electronics project. Circuit was built on a breadboard used to control the LED light using an arduino. This small project deomstrates the use of hardware/software, circuit design, and writing embedded code. 
 
