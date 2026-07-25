@@ -4,6 +4,7 @@ This is a collection of hands-on hardware builds, circuit designs, and code as I
 
 ## Component list
 **Arduino Uno Starter Kit**
+
 Software Arduino IDE, Tinkercad
 
 
