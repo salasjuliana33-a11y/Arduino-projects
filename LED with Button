@@ -1,0 +1,17 @@
+int red_pin = 12; 
+int button = 2;
+
+void setup() {
+  pinMode(red_pin, OUTPUT); // prevents "floating" if inputpullup is added
+  pinMode(button, INPUT_PULLUP);
+}
+
+void loop() {            
+  if (digitalRead(button) == LOW) { 
+    digitalWrite(red_pin, HIGH);    // LOW = Button is pressed
+  // HIGH = Button is released
+  } 
+  else {                          
+    digitalWrite(red_pin, LOW);     
+  } 
+}
